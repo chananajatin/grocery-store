@@ -60,7 +60,7 @@ const App = () => {
         <Route path="/totalAmount/:userId" exact>
           <TotalAmount />
         </Route>
-        <Redirect to="/home" />
+        <Navigate to="/home" />
       </Switch>
     );
   } else {
@@ -81,7 +81,7 @@ const App = () => {
         <Route path="/contact" exact>
           <Contact />
         </Route>
-        <Redirect to="/home" />
+        <Navigate to="/home" />
       </Switch>
     );
   }
