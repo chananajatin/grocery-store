@@ -2,7 +2,7 @@ import "./App.css";
 import {
   BrowserRouter as Router,
   Route,
-  Redirect,
+  Navigate,
   Routes,
 } from "react-router-dom";
 import Login from "./users/pages/Login";
